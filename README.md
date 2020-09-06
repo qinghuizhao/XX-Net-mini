@@ -27,7 +27,7 @@ Mini版XX-Net特点:
    
         sudo aptitude install openssl
   
-  Windows用户根据系统版本位数 32|64位系统选择下载安装
+   Windows用户根据系统版本位数 32|64位系统选择下载安装
    
    [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe)
    
