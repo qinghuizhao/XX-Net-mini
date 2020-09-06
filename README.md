@@ -17,7 +17,7 @@ Mini版XX-Net特点:
 
 1. 下载或克隆XX-Net-mini
 
-        [XX-Net-mini 4.5.2 zip](https://github.com/miketwes/XX-Net-mini/archive/4.5.2.zip)
+   [XX-Net-mini 4.5.2 zip](https://github.com/miketwes/XX-Net-mini/archive/4.5.2.zip)
       
         git clone https://github.com/miketwes/XX-Net-mini.git
 
