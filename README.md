@@ -17,26 +17,38 @@ Mini版XX-Net特点:
 
 1. 下载或克隆XX-Net-mini
 
-    git clone https://github.com/miketwes/XX-Net-mini.git
+        [XX-Net-mini 4.5.2 zip](https://github.com/miketwes/XX-Net-mini/archive/4.5.2.zip)
+      
+        git clone https://github.com/miketwes/XX-Net-mini.git
 
 2. 安装openssl, 在命令行运行openssl version看是否已安装, 如果没有安装:
 
    Linux: sudo aptitude install openssl
    Windows用户根据系统版本位数 32|64位系统选择下载安装
+   
    [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe)
+   
    [Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) 
 
 3. 生成、导入GoAgent-XX-Net-mini-4.5.2证书
 
-   Linux: cd XX-Net-mini/data/gae_proxy && python creat_ca.py 
+   Linux: 
    
-   Windows: cd XX-Net-mini\data\gae_proxy && python creat_ca.py
+        cd XX-Net-mini/data/gae_proxy && python creat_ca.py 
+   
+   Windows: 
+   
+        cd XX-Net-mini\data\gae_proxy && python creat_ca.py
 
 4. 运行XX-Net-mini
 
-   Linux:  cd XX-Net-mini/code/default/launcher && python3 start.py
+   Linux:  
    
-   Windows: cd XX-Net-mini\code\default\launcher && python start.py
+        cd XX-Net-mini/code/default/launcher && python3 start.py
+   
+   Windows: 
+   
+        cd XX-Net-mini\code\default\launcher && python start.py
 
 
 运行时如果提示 Press Enter to continue..., 说明有错误出现, 可修改 XX-Net-mini/code/default/lib/noarch/xlog.py中的self.min_level = FATAL为self.min_level = NOTSET, 以显示详细错误信息, 欢迎提交错误报告
