@@ -1,4 +1,4 @@
-##### XX-Net-mini 4.5.2 Mini version of [XX-Net](https://github.com/XX-net/XX-Net).
+XX-Net-mini 4.5.2 Mini version of [XX-Net](https://github.com/XX-net/XX-Net).
 
 XX-Net-mini 4.5.2 在Linux和Windows环境下正常运行(其他环境未作测试) 
 
@@ -22,7 +22,9 @@ Mini版XX-Net特点:
 2. 安装openssl, 在命令行运行openssl version看是否已安装, 如果没有安装:
 
    Linux: sudo aptitude install openssl
-   Windows用户根据系统版本位数 32|64位系统选择下载安装[Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe)或[Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) 
+   Windows用户根据系统版本位数 32|64位系统选择下载安装
+   [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe)
+   [Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) 
 
 3. 生成、导入GoAgent-XX-Net-mini-4.5.2证书
 
@@ -37,9 +39,7 @@ Mini版XX-Net特点:
    Windows: cd XX-Net-mini\code\default\launcher && python start.py
 
 
-运行时如果提示 Press Enter to continue..., 说明有错误出现
-可修改 XX-Net-mini/code/default/lib/noarch/xlog.py中的self.min_level = FATAL为self.min_level = NOTSET,
-以显示详细错误信息, 欢迎提交错误报告
+运行时如果提示 Press Enter to continue..., 说明有错误出现, 可修改 XX-Net-mini/code/default/lib/noarch/xlog.py中的self.min_level = FATAL为self.min_level = NOTSET, 以显示详细错误信息, 欢迎提交错误报告
 如果不出现 Network is ok, you can start to surf the internet! 的提示,  说明有Ipv6网络有问题
 
 Chromium浏览器代理设置:
