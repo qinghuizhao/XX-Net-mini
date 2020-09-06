@@ -1,5 +1,8 @@
-#### XX-Net-mini 4.5.2
-Mini version of [XX-Net](https://github.com/XX-net/XX-Net).
+##### XX-Net-mini 4.5.2 Mini version of [XX-Net](https://github.com/XX-net/XX-Net).
+
+XX-Net-mini 4.5.2 在Linux和Windows环境下正常运行(其他环境未作测试) 
+
+![2020-09-06_627x751](https://user-images.githubusercontent.com/6849681/92320577-08dfea00-f055-11ea-9314-b43a1ad0a0ae.png)
 
 Mini版XX-Net特点:
 
@@ -23,12 +26,14 @@ Mini版XX-Net特点:
 
 3. 生成、导入GoAgent-XX-Net-mini-4.5.2证书
 
-   Linux: cd XX-Net-mini/data/gae_proxy && python creat_ca.py
+   Linux: cd XX-Net-mini/data/gae_proxy && python creat_ca.py 
+   
    Windows: cd XX-Net-mini\data\gae_proxy && python creat_ca.py
 
 4. 运行XX-Net-mini
 
-   Linux:  cd XX-Net-mini/code/default/launcher && python3 start.py   
+   Linux:  cd XX-Net-mini/code/default/launcher && python3 start.py
+   
    Windows: cd XX-Net-mini\code\default\launcher && python start.py
 
 
@@ -37,11 +42,6 @@ Mini版XX-Net特点:
 以显示详细错误信息, 欢迎提交错误报告
 如果不出现 Network is ok, you can start to surf the internet! 的提示,  说明有Ipv6网络有问题
 
-XX-Net-mini 4.5.2 在Linux和Windows环境下正常运行(其他环境未作测试) 
-
-![2020-09-06_627x751](https://user-images.githubusercontent.com/6849681/92320577-08dfea00-f055-11ea-9314-b43a1ad0a0ae.png)
-    
-    
 Chromium浏览器代理设置:
 
         chromium --proxy-server="http://127.0.0.1:8087"
